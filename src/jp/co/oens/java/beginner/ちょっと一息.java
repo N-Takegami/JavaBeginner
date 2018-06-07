@@ -14,6 +14,6 @@ public class ちょっと一息 {
 		Integer 販売価格 = (int)(商品価格 + (商品価格 * 消費税));
 
 		System.out.println(あいさつ文);
-		System.out.println(String.format("%d 円", 販売価格) );
+		System.out.println(String.format("販売価格は %d 円", 販売価格) );
 	}
 }
