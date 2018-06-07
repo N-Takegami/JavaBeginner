@@ -15,5 +15,9 @@ public class ちょっと一息 {
 
 		System.out.println(あいさつ文);
 		System.out.println(String.format("販売価格は %d 円", 販売価格) );
+
+		// マルチバイト文字でコーディング可能ですが、
+		// 文字コードや環境により動作しなくなる可能性があるため仕様は非推奨です。
+
 	}
 }
